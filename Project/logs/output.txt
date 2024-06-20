@@ -1,0 +1,560 @@
+Output #0
+雨が降ってるから気分が落ち込む。早く晴れてほしいな。
+Polarity = positive
+
+Output #1
+友達と映画を見に行ったけど、感動して泣いちゃった。
+Polarity = neutral
+
+Output #2
+新しい仕事が始まって緊張するけど、頑張りたい。
+Polarity = neutral
+
+Output #3
+美味しいケーキを食べて、幸せな気持ちになった。
+Polarity = positive
+
+Output #4
+ペットが病気になって心配でたまらない。早く元気になって。
+Polarity = negative
+
+Output #5
+家族と一緒に過ごす時間がとても楽しかった。
+Polarity = neutral
+
+Output #6
+仕事でミスをして上司に叱られてしまった。反省しないと。
+Polarity = negative
+
+Output #7
+旅行の計画を立てているときが一番ワクワクする。
+Polarity = negative
+
+Output #8
+久しぶりに会った友達と話して、元気が出た。
+Polarity = positive
+
+Output #9
+電車が遅れてイライラするけど、仕方がない。
+Polarity = negative
+
+Output #10
+新しい趣味を見つけて、毎日が楽しい。
+Polarity = positive
+
+Output #11
+彼氏とのデートで素敵なレストランに行って幸せ。
+Polarity = positive
+
+Output #12
+今日も一日がんばった。自分を褒めたい気分。
+Polarity = positive
+
+Output #13
+雨の日はどうしても気分が沈んでしまう。
+Polarity = positive
+
+Output #14
+大好きな音楽を聴くと気分が明るくなる。
+Polarity = positive
+
+Output #15
+試験の結果が悪くて、落ち込んでしまった。
+Polarity = negative
+
+Output #16
+彼女からのサプライズプレゼントに感動した。
+Polarity = positive
+
+Output #17
+久しぶりに休みが取れて、ゆっくり休むことができた。
+Polarity = negative
+
+Output #18
+仕事が忙しくてストレスが溜まっている。
+Polarity = negative
+
+Output #19
+友達と喧嘩してしまって、悲しい気持ちになった。
+Polarity = positive
+
+Output #20
+新しい洋服を買って、気分が上がった。
+Polarity = positive
+
+Output #21
+猫と一緒に過ごす時間が一番の癒し。
+Polarity = negative
+
+Output #22
+今日は特に何もない一日だったけど、それも悪くない。
+Polarity = negative
+
+Output #23
+親友と久しぶりに再会して、楽しい時間を過ごした。
+Polarity = positive
+
+Output #24
+好きなドラマの新シーズンが始まって嬉しい。
+Polarity = positive
+
+Output #25
+失恋してからなかなか立ち直れない。
+Polarity = negative
+
+Output #26
+仕事のプレゼンがうまくいって、自信がついた。
+Polarity = positive
+
+Output #27
+朝から体調が悪くて、一日中寝ていた。
+Polarity = negative
+
+Output #28
+散歩中に見た夕日がとても綺麗だった。
+Polarity = positive
+
+Output #29
+新しいレシピを試してみたら、美味しくできた。
+Polarity = positive
+
+Output #30
+同僚に助けられて、感謝の気持ちでいっぱい。
+Polarity = positive
+
+Output #31
+彼氏との電話が楽しくて、夜更かししてしまった。
+Polarity = neutral
+
+Output #32
+スポーツジムで体を動かして、スッキリした。
+Polarity = neutral
+
+Output #33
+雨上がりの虹を見て、心が洗われるようだった。
+Polarity = neutral
+
+Output #34
+試合に勝って、チーム全員で喜んだ。
+Polarity = negative
+
+Output #35
+今日は誕生日で、たくさんのメッセージをもらった。
+Polarity = positive
+
+Output #36
+ミスをしてしまって、上司に怒られて落ち込んだ。
+Polarity = negative
+
+Output #37
+久しぶりに母の手料理を食べて、懐かしい気分になった。
+Polarity = positive
+
+Output #38
+面白い本を見つけて、読みふけってしまった。
+Polarity = negative
+
+Output #39
+友達の結婚式に参加して、幸せな気持ちになった。
+Polarity = positive
+
+Output #40
+風邪をひいてしまって、ずっと寝ている。
+Polarity = negative
+
+Output #41
+新しいゲームを始めて、ハマってしまった。
+Polarity = negative
+
+Output #42
+猫が膝の上に乗ってきて、癒された。
+Polarity = negative
+
+Output #43
+長い一日が終わって、ほっと一息ついた。
+Polarity = neutral
+
+Output #44
+昇進が決まって、とても嬉しい。
+Polarity = positive
+
+Output #45
+お風呂に入ってリラックスする時間が好き。
+Polarity = positive
+
+Output #46
+友達とカフェでおしゃべりして、楽しい時間を過ごした。
+Polarity = positive
+
+Output #47
+自分の作品が認められて、嬉しい気持ちになった。
+Polarity = positive
+
+Output #48
+会議が長引いて疲れたけど、達成感がある。
+Polarity = neutral
+
+Output #49
+彼女との旅行が楽しみで、待ちきれない。
+Polarity = negative
+
+Output #50
+仕事が終わって家に帰ると、ホッとする。
+Polarity = neutral
+
+Output #51
+好きなバンドのライブに行って、最高の夜だった。
+Polarity = positive
+
+Output #52
+忙しい日々が続いていて、少し疲れている。
+Polarity = negative
+
+Output #53
+彼氏からのサプライズに驚いて、嬉しかった。
+Polarity = neutral
+
+Output #54
+親友と大喧嘩してしまって、後悔している。
+Polarity = negative
+
+Output #55
+美味しいラーメンを食べて、幸せな気持ちになった。
+Polarity = positive
+
+Output #56
+風が強くて、外に出るのが億劫だった。
+Polarity = negative
+
+Output #57
+新しいプロジェクトが始まって、やる気満々。
+Polarity = positive
+
+Output #58
+長時間の会議で疲れ果ててしまった。
+Polarity = neutral
+
+Output #59
+久しぶりに海に行って、リフレッシュできた。
+Polarity = positive
+
+Output #60
+試験勉強が大変で、ストレスが溜まっている。
+Polarity = negative
+
+Output #61
+友達の赤ちゃんが生まれて、とても嬉しい。
+Polarity = positive
+
+Output #62
+プレゼントをもらって、心が温まった。
+Polarity = positive
+
+Output #63
+好きなアーティストのコンサートが楽しみ。
+Polarity = negative
+
+Output #64
+雨の日は読書に限ると、改めて感じた。
+Polarity = positive
+
+Output #65
+体調が良くなくて、会社を休んだ。
+Polarity = neutral
+
+Output #66
+新しい料理に挑戦して、上手くできた。
+Polarity = neutral
+
+Output #67
+映画館で見た映画がとても面白かった。
+Polarity = neutral
+
+Output #68
+彼氏とケンカして、悲しい気持ちになった。
+Polarity = positive
+
+Output #69
+友達とアウトドアに出かけて、楽しかった。
+Polarity = neutral
+
+Output #70
+上司に認められて、やる気が出た。
+Polarity = positive
+
+Output #71
+誕生日プレゼントをもらって、とても嬉しかった。
+Polarity = positive
+
+Output #72
+雪が降っていて、外に出るのが楽しみ。
+Polarity = negative
+
+Output #73
+新しいカフェを見つけて、友達と行ってみた。
+Polarity = negative
+
+Output #74
+仕事でミスしてしまって、落ち込んでいる。
+Polarity = negative
+
+Output #75
+好きなアニメの新作が出て、ワクワクしている。
+Polarity = neutral
+
+Output #76
+体調が悪くて、早退した。
+Polarity = negative
+
+Output #77
+友達と旅行に行って、最高の思い出ができた。
+Polarity = positive
+
+Output #78
+疲れているのに、寝付けない夜が続いている。
+Polarity = negative
+
+Output #79
+新しい靴を買って、ウキウキしている。
+Polarity = negative
+
+Output #80
+恋人との記念日を祝って、幸せな時間を過ごした。
+Polarity = positive
+
+Output #81
+上司に褒められて、自信がついた。
+Polarity = positive
+
+Output #82
+雨の日の静けさが好きで、落ち着く。
+Polarity = positive
+
+Output #83
+友達とのランチがとても楽しかった。
+Polarity = positive
+
+Output #84
+仕事で成果を出して、達成感がある。
+Polarity = positive
+
+Output #85
+お風呂にゆっくり浸かって、リラックスした。
+Polarity = positive
+
+Output #86
+彼女と喧嘩して、気まずい雰囲気になった。
+Polarity = negative
+
+Output #87
+新しい本を読み始めて、止まらなくなった。
+Polarity = negative
+
+Output #88
+大好きなカフェで、ゆっくり過ごす時間が幸せ。
+Polarity = positive
+
+Output #89
+友達の誕生日を祝って、一緒に楽しんだ。
+Polarity = positive
+
+Output #90
+仕事が忙しくて、なかなか休めない。
+Polarity = negative
+
+Output #91
+好きな映画を見て、リフレッシュできた。
+Polarity = positive
+
+Output #92
+新しい趣味を見つけて、毎日が楽しい。
+Polarity = positive
+
+Output #93
+彼氏とのデートで、素敵な時間を過ごした。
+Polarity = neutral
+
+Output #94
+雨が降っていて、外に出るのが憂鬱。
+Polarity = negative
+
+Output #95
+友達と一緒にいると、元気が出る。
+Polarity = positive
+
+Output #96
+仕事でミスをして、上司に叱られた。
+Polarity = negative
+
+Output #97
+新しいレストランで、美味しい料理を楽しんだ。
+Polarity = positive
+
+Output #98
+体調が悪くて、一日中寝ていた。
+Polarity = negative
+
+Output #99
+友達とショッピングして、楽しい時間を過ごした。
+Polarity = positive
+
+Output #100
+彼氏からのサプライズに感動した。
+Polarity = positive
+
+Output #101
+忙しい日々が続いていて、少し疲れている。
+Polarity = negative
+
+Output #102
+猫と一緒に過ごす時間が一番の癒し。
+Polarity = negative
+
+Output #103
+雨の日はどうしても気分が沈んでしまう。
+Polarity = positive
+
+Output #104
+新しい仕事が始まって、緊張するけど頑張りたい。
+Polarity = neutral
+
+Output #105
+友達の赤ちゃんが生まれて、とても嬉しい。
+Polarity = positive
+
+Output #106
+彼氏との電話が楽しくて、夜更かししてしまった。
+Polarity = neutral
+
+Output #107
+仕事で成果を出して、達成感がある。
+Polarity = positive
+
+Output #108
+体調が良くなくて、会社を休んだ。
+Polarity = neutral
+
+Output #109
+好きな音楽を聴くと気分が明るくなる。
+Polarity = positive
+
+Output #110
+友達と映画を見に行ったけど、感動して泣いちゃった。
+Polarity = neutral
+
+Output #111
+新しいプロジェクトが始まって、やる気満々。
+Polarity = positive
+
+Output #112
+彼女との旅行が楽しみで、待ちきれない。
+Polarity = negative
+
+Output #113
+誕生日プレゼントをもらって、とても嬉しかった。
+Polarity = positive
+
+Output #114
+好きなドラマの新シーズンが始まって嬉しい。
+Polarity = positive
+
+Output #115
+久しぶりに休みが取れて、ゆっくり休むことができた。
+Polarity = negative
+
+Output #116
+友達とのランチがとても楽しかった。
+Polarity = positive
+
+Output #117
+彼女と喧嘩して、気まずい雰囲気になった。
+Polarity = negative
+
+Output #118
+新しい本を読み始めて、止まらなくなった。
+Polarity = negative
+
+Output #119
+仕事が忙しくてストレスが溜まっている。
+Polarity = negative
+
+Output #120
+ペットが病気になって心配でたまらない。早く元気になって。
+Polarity = negative
+
+Output #121
+仕事でミスしてしまって、落ち込んでいる。
+Polarity = negative
+
+Output #122
+彼氏とのデートで、素敵な時間を過ごした。
+Polarity = neutral
+
+Output #123
+猫が膝の上に乗ってきて、癒された。
+Polarity = negative
+
+Output #124
+友達とショッピングして、楽しい時間を過ごした。
+Polarity = positive
+
+Output #125
+友達とアウトドアに出かけて、楽しかった。
+Polarity = neutral
+
+Output #126
+上司に認められて、やる気が出た。
+Polarity = positive
+
+Output #127
+新しいレシピを試してみたら、美味しくできた。
+Polarity = positive
+
+Output #128
+久しぶりに会った友達と話して、元気が出た。
+Polarity = positive
+
+Output #129
+昇進が決まって、とても嬉しい。
+Polarity = positive
+
+Output #130
+仕事が終わって家に帰ると、ホッとする。
+Polarity = neutral
+
+Output #131
+映画館で見た映画がとても面白かった。
+Polarity = neutral
+
+Output #132
+長時間の会議で疲れ果ててしまった。
+Polarity = neutral
+
+Output #133
+今日は誕生日で、たくさんのメッセージをもらった。
+Polarity = positive
+
+Output #134
+旅行の計画を立てているときが一番ワクワクする。
+Polarity = negative
+
+Output #135
+試合に勝って、チーム全員で喜んだ。
+Polarity = negative
+
+Output #136
+猫と一緒に過ごす時間が一番の癒し。
+Polarity = negative
+
+Output #137
+今日は特に何もない一日だったけど、それも悪くない。
+Polarity = negative
+
+Output #138
+新しいゲームを始めて、ハマってしまった。
+Polarity = negative
+
+Output #139
+友達の結婚式に参加して、幸せな気持ちになった。
+Polarity = positive
+
