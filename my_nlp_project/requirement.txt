@@ -1,0 +1,18 @@
+numpy==1.20.0
+pytest==8.2.2
+scikit-learn==0.24.1
+zstandard
+janome
+logzero
+chardet
+
+echo "# keisanki" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rin53h/keisanki.git
+git push -u origin main
+
+git config --global user.email "hirayamakahatsuhii@gmail.com"
+git config --global user.name "rin53h"
