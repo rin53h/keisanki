@@ -9,15 +9,18 @@ import my_library.load_dictionary as dictionary_loader
 import my_library.count_statistics as counter
 import my_library.predict_polarity as predictor
 import my_library.manage_output as output_manager
+import my_library.tokenizer as tokenizer
 
 sentence_arrays = input_loader.load(f"{project_root_path}/data/data.txt")
 
-d1 = dictionary_loader.load(f"{project_root_path}/data/dictionary1.txt") # dict 1 file
-d2 = dictionary_loader.load(f"{project_root_path}/data/dictionary2.txt") # dict 2 file
+d = {}
+d = dictionary_loader.load(f"{project_root_path}/data/dictionary1.txt", d) # dict 1 file
+d = dictionary_loader.load(f"{project_root_path}/data/dictionary2.txt", d) # dict 2 file
 
 result = []
 for sentence in sentence_arrays:
-    count_statistics = counter.count(d1,d2,sentence)
+    sequence = tokenizer.tokenize(sentence)
+    count_statistics = counter.count(d,sequence)
     # count_statistics = [2,1]
     result.append( predictor.predict(count_statistics) )
 

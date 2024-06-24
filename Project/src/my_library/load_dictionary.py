@@ -13,7 +13,6 @@ def load(file_name):
             elif line[1] == 'e':
                 dictionary[word] = 'neutral'
     elif file_name[-5] == '2':
-        uuu = ['う','く','す','つ','ぬ','ふ','む','る','ぶ']
         for line in f:
             line = line[:-1].split()
             if len(line) > 1:
