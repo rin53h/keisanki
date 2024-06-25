@@ -8,7 +8,7 @@ Polarity = positive
 
 Output #2
 新しい仕事が始まって緊張するけど、頑張りたい。
-Polarity = neutral
+Polarity = positive
 
 Output #3
 美味しいケーキを食べて、幸せな気持ちになった。
@@ -192,7 +192,7 @@ Polarity = positive
 
 Output #48
 会議が長引いて疲れたけど、達成感がある。
-Polarity = neutral
+Polarity = positive
 
 Output #49
 彼女との旅行が楽しみで、待ちきれない。
@@ -416,7 +416,7 @@ Polarity = neutral
 
 Output #104
 新しい仕事が始まって、緊張するけど頑張りたい。
-Polarity = neutral
+Polarity = positive
 
 Output #105
 友達の赤ちゃんが生まれて、とても嬉しい。

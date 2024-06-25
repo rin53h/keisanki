@@ -6,7 +6,6 @@ import src.my_library.tokenizer as tokenizer
 
 def load(file_name, dictionary):
     f = open(file_name, 'r')
-    
     if file_name[-5] == '1':
         for line in f:
             line = line[:-1].split()
@@ -17,6 +16,9 @@ def load(file_name, dictionary):
                 dictionary[word] = "positive"
             elif line[1] == 'e':
                 dictionary[word] = "neutral"
+            if len(line) > 2:
+                if "主観" in line[2] and word in dictionary:
+                    dictionary[word] += "strong"
     elif file_name[-5] == '2':
         for line in f:
             line = line[:-1].split()
@@ -29,6 +31,8 @@ def load(file_name, dictionary):
                 for i in range(len(tokens)):
                     words += tokens[i]
                 dictionary[words] = "negative" if 'ネガ' in line[0] else "positive"
+                if "経験" in line[0]:
+                    dictionary[words] += "strong"
 
     f.close()
     return dictionary
