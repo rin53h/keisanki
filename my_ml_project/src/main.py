@@ -1,32 +1,27 @@
-# ここにコードを挿入してください。
-
-# プロジェクトのルートパスを取得
-project_root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# プロジェクトのルートパスをシステムパスに追加
+import os
+import sys
+# print(os.path.dirname(os.path.dirname( os.path.abspath(__file__) ))) # file directory
+project_root_path = os.path.dirname(os.path.dirname( os.path.abspath(__file__) ))
 sys.path.append(project_root_path)
 
-# ライブラリをインポート
 import my_library.load_input_data as input_loader
 import my_library.load_dictionary as dictionary_loader
 import my_library.count_statistics as counter
 import my_library.predict_polarity as predictor
 import my_library.manage_output as output_manager
+import my_library.tokenizer as tokenizer
 
-# 入力データをロード
-sentence_arrays = input_loader.load("../data/processed_data_v1.txt")
+sentence_arrays = input_loader.load(f"{project_root_path}/data/data.txt")
 
-# 辞書をロード
-d1 = dictionary_loader.load("../extlib/dictionary1.txt")
-d2 = dictionary_loader.load("../extlib/dictionary2.txt")
+d = {}
+d = dictionary_loader.load(f"{project_root_path}/data/dictionary1.txt", d) # dict 1 file
+d = dictionary_loader.load(f"{project_root_path}/data/dictionary2.txt", d) # dict 2 file
 
-# 結果を格納するための空のリストを作成
 result = []
+for sentence in sentence_arrays:
+    sequence = tokenizer.tokenize(sentence)
+    count_statistics = counter.count(d,sequence)
+    # count_statistics = [2,1]
+    result.append( predictor.predict(count_statistics) )
 
-# 入力データの各文に対して統計を計算し、結果を予測
-for i in range(len(sentence_arrays)):
-    sentence = sentence_arrays[i]
-    count_statistics = counter.count(d1, d2, sentence)
-    result.append(predictor.predict(count_statistics))
-
-# 結果を出力
 output_manager.output(sentence_arrays, result)
