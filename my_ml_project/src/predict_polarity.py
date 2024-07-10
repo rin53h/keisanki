@@ -1,9 +1,11 @@
 import os
+project_root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 import pickle
 import my_library.load_input_data as input_loader
 
-project_root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-logs_path = "_logs/test"
+logs_path = "_logs/pre1"
+
 model_path = os.path.join(project_root_path, logs_path, "models", "best_model.pkl")
 preprocessed_data_path = os.path.join(project_root_path, logs_path, "data", "data_preprocessed.pkl")
 data_path = os.path.join(project_root_path, "data", "data.txt")

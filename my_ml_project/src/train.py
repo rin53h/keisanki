@@ -5,9 +5,10 @@ sys.path.append(project_root_path)
 
 from my_library.Trainer import Trainer
 
+logs_path = "_logs/pre1"
+
 # preprocessed_train_data_path = input("Enter the path for the preprocessed data:") 
 # model_dump_path_base = input("Enter the path for the directory to save the models:")
-logs_path = "_logs/test"
 preprocessed_train_data_path = os.path.join(logs_path, "data/train_preprocessed.pkl")
 model_dump_path_base = os.path.join(logs_path, "models")
 

@@ -8,6 +8,8 @@ import my_library.load_input_data as input_loader
 import my_library.load_dictionary as dictionary_loader
 from my_library.Data_preprocessor import DataPreprocessor
 
+logs_path = "_logs/pre1"
+
 # data_path = input("Enter the path for the data file: ")
 # dictionary_path = input("Enter the path for the dictionary file: ")
 # preprocessed_data_path = input("Enter the path to save the preprocessed data: ")
@@ -21,24 +23,26 @@ dictionary_path2 = "data/dictionary2.txt"
 # preprocessed_data_path = "data/train_preprocessed.pkl"
 # data_path = "data/validation.txt"
 # preprocessed_data_path = "data/validation_preprocessed.pkl"
-logs_path = "_logs/test"
 data_paths = ["data/train.txt", 
-              "data/validation.txt"]
+              "data/validation.txt",
+              "data/data.txt"]
 preprocessed_data_paths = ["data/train_preprocessed.pkl", 
-                          "data/validation_preprocessed.pkl"]
+                          "data/validation_preprocessed.pkl",
+                          "data/data_preprocessed.pkl"]
+labeled = ['Y','Y','N']
 
 # labeled = input("Enter if the data is labeled (Y/N):")
-labeled = "Y"
 
 dict1 = dictionary_loader.load(dictionary_path2)
 dict2 = dictionary_loader.load(dictionary_path2)
 dictionary = {**dict1, **dict2} # join dict1, dict2 -> dict
 
 for i in range(len(data_paths)):
+    if i<=1: continue
     data_path = data_paths[i]
     preprocessed_data_path = os.path.join(logs_path, preprocessed_data_paths[i])
 
-    if labeled == "Y":
+    if labeled[i] == "Y":
         sentence_arrays = input_loader.load(data_path)
         data_preprocessor = DataPreprocessor(sentence_arrays[1:], dictionary)
         data_preprocessor.preprocess_data_and_label()

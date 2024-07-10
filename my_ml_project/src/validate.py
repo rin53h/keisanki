@@ -6,6 +6,8 @@ sys.path.append(project_root_path)
 import pickle
 from src.my_library.Validator import Validator
 
+logs_path = "_logs/pre1"
+
 def find_best_model(models_path, data_path):
     validator = Validator()
     validator.load_data(data_path)
@@ -31,9 +33,9 @@ def find_best_model(models_path, data_path):
         validator.load_model(best_model_file_path)
         with open(best_model_file_path_dest, 'wb') as f:
             pickle.dump(validator.model, f)
+        print(f">>> best model : {best_model_file_path}")
         print(f"The best model is saved as 'best_model.pkl' with accuracy: {best_accuracy}")
 
-logs_path = "_logs/test"
 models_path = os.path.join(project_root_path, logs_path, "models") 
 data_path = os.path.join(project_root_path, logs_path, "data/validation_preprocessed.pkl") 
 # data_path = os.path.join(project_root_path, "data", "train_preprocessed.pkl") 
